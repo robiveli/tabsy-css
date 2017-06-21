@@ -1,0 +1,31 @@
+{
+  "name": "tabsy-css",
+  "version": "1.0.0",
+  "description": "Simple tabs toggler component written in pure CSS with no dependencies",
+  "main": [
+    "dist/",
+    "src/",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ],
+  "authors": [
+    "Robert Velickovski"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "tabs",
+    "css",
+    "toggle",
+    "simple",
+    "lightweight"
+  ],
+  "homepage": "https://github.com/robiveli/tabsy-css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

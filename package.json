@@ -1,0 +1,28 @@
+{
+  "name": "tabsy-css",
+  "title": "Tabsy CSS",
+  "description": "Simple tabs toggler component written in pure CSS with no dependencies",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Robert Velickovski",
+    "email": "roby@rvdizajn.com"
+  },
+  "keywords": [
+    "tabs",
+    "css",
+    "simple",
+    "toggle",
+    "lightweight"
+  ],
+  "homepage": "https://github.com/robiveli/tabsy-css",
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "grunt": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-html-build": "^0.7.1",
+    "grunt-postcss": "^0.8.0",
+    "grunt-sass": "^2.0.0",
+    "load-grunt-tasks": "^3.5.2"
+  }
+}

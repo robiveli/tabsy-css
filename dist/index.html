@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Tabsy - Simple tabs toggler component written in pure CSS with no dependencies</title>
+<meta charset="utf-8">
+<meta name="description" content="Simple tabs toggler component written in pure CSS with no dependencies">
+<meta name="robots" content="index,follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link href="https://fonts.googleapis.com/css?family=Dosis|Fredoka+One" rel="stylesheet">
+<link href="tabsy.css" rel="stylesheet" type="text/css">
+
+<style>
+
+    /*** DEMO only ***/
+
+    html,body,div,span,applet,object,
+    iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,
+    address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,
+    strike,sub,sup,tt,var,center,dl,dt,dd,ol,ul,li,fieldset,form,
+    label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,
+    aside,canvas,details,embed,figure,figcaption,footer,header,
+    hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,
+    video { border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; }
+
+
+    html { 
+
+        font-size: 62.5%; 
+
+    }
+
+    body { 
+
+        font-size: 1em; background: #F5F5F5; font-family: 'Dosis', sans-serif; color: #565659;  background-color: #f6f3ee;
+
+    }
+
+    main {
+
+        display: block; margin: 80px auto; padding: 0 20px; text-align: center;
+
+    }
+
+    h1 {
+
+        font-size: 70px; font-family: 'Fredoka One', cursive; text-align: center; color: #5a5243;
+
+    }
+
+    h1 sup {
+
+        font-size: 14px; margin-left: -20px; display: inline-block; line-height: 1;
+
+    }
+
+    h2 {
+
+        font-size: 22px; text-align: center; margin: -7px 0 80px 0; padding: 5px 5px 6px 5px; display: inline-block; line-height: 30px;
+        border-bottom: 1px solid #5a5243; border-top: 1px solid #5a5243;
+
+    }
+
+    .tabButton {
+
+        font-size: 15px; font-weight: bold; padding: 15px 20px; 
+
+    }
+
+    .tab {
+
+        padding: 20px; text-align: left;
+
+    }
+
+    h3 {
+
+        font-size: 20px; font-weight: bold;
+
+    }
+
+    p {
+
+        font-size: 15px; margin-top: 10px; 
+
+    }
+
+    @media screen and (min-width: 768px) {
+
+        main {
+
+            width: 700px;
+
+        }
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <h1>Tabsy <sup>[CSS]</sup></h1>
+        <h2>Simple and lightweight tabs toggler component written in pure CSS</h2>
+        
+        <div class="tabsy">
+
+            <input type="radio" id="tab1" name="tab" checked>
+            <label class="tabButton" for="tab1">Tab One</label>
+            
+            <div class="tab">
+                <div class="content">
+                    <h3>Heading 1</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+            </div>
+
+            <input type="radio" id="tab2" name="tab">
+            <label class="tabButton" for="tab2">Tab Two</label>
+            
+            <div class="tab">
+                <div class="content">
+                    <h3>Heading 2</h3>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+            </div>
+
+            <input type="radio" id="tab3" name="tab">
+            <label class="tabButton" for="tab3">Tab Three</label>
+            
+            <div class="tab">
+                <div class="content">
+                    <h3>Heading 3</h3>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                    <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
