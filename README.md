@@ -50,7 +50,7 @@ Initial required structure, place any content you want within the tabs:
 
 ### Demo ###
 
-Demo available [here](http://www.rvdizajn.com/tabsy-css/).
+Demo available [here](http://robiveli.github.io/tabsy-css/).
 
 ### Options ###
 
