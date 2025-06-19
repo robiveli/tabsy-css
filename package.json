@@ -11,8 +11,11 @@
     "keywords": [
         "tabs",
         "css",
+        "scss",
+        "sass",
         "simple",
         "toggle",
+        "dependency-free",
         "lightweight"
     ],
     "homepage": "https://github.com/robiveli/tabsy-css",
