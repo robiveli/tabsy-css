@@ -1,27 +1,25 @@
-# Tabsy CSS #
-## Simple tabs toggler component written in pure CSS with no dependencies ##
+# Tabsy CSS
 
+## Simple tabs toggler component written in pure CSS with no dependencies
 
-### Install ###
+### Install
 
 With npm:
+
 ```sh
 npm install tabsy-css
 ```
 
-With Bower:
-```sh
-bower install tabsy-css
-```
-
-### Usage ###
+### Usage
 
 Include css:
+
 ```sh
 <link href='tabsy.css' rel='stylesheet' type='text/css'>
 ```
 
 Initial required structure, place any content you want within the tabs:
+
 ```sh
 <div class="tabsy">
     <input type="radio" id="tab1" name="tab" checked>
@@ -48,18 +46,18 @@ Initial required structure, place any content you want within the tabs:
 </div>
 ```
 
-### Demo ###
+### Demo
 
 Demo available [here](http://robiveli.github.io/tabsy-css/).
 
-### Options ###
+### Options
 
 Default css settings are placed in `library/_variables.scss`:
 
-### Note ###
+### Note
 
 Based on Flexbox feature. Where not supported simple fallback is applied.
 
-### License  ###
+### License
 
 Tabsy CSS is licensed under the [MIT license](http://opensource.org/licenses/MIT).
